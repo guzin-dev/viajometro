@@ -8,11 +8,11 @@ function App() {
       <section className="p-4 px-6 flex justify-center max-w-[90rem] sm:justify-between items-center w-full sticky top-0 bg-[#111827] z-10">
         <img src={logo}></img>
         <div className="hidden sm:flex gap-4">
-          <div className="h-12 w-12 p-3 rounded-full border-brand border hover:bg-brand transition-all cursor-pointer active:scale-90">
-            <a href="https://github.com/guzin-dev/viajometro" target="_blank">
+          <a href="https://github.com/guzin-dev/viajometro" target="_blank">
+            <div className="h-12 w-12 p-3 rounded-full border-brand border hover:bg-brand transition-all cursor-pointer active:scale-90">
               <img src={githubLogo}></img>
-            </a>
-          </div>
+            </div>
+          </a>
           <div className="h-12 px-7 p-3 rounded-full border-brand border hover:bg-brand transition-all cursor-pointer active:scale-90">
             <p className="font-semibold">Acessar agora</p>
           </div>
