@@ -5,6 +5,7 @@ function Countrys() {
   const countries = [
     {
       nome: "França",
+      index: 0,
       description: "A França é conhecida por sua cultura, gastronomia e paisagens deslumbrantes.",
       price: 3000,
       imagem: "https://s4.static.brasilescola.uol.com.br/be/2021/07/torre-eiffel.jpg",
@@ -32,6 +33,7 @@ function Countrys() {
     },
     {
       nome: "Estados Unidos",
+      index: 1,
       description:
         "Os EUA oferecem uma variedade de destinos, desde cidades movimentadas até parques nacionais deslumbrantes.",
       price: 2500,
@@ -60,6 +62,7 @@ function Countrys() {
     },
     {
       nome: "Espanha",
+      index: 2,
       description: "A Espanha é famosa por sua cultura vibrante, praias deslumbrantes e arquitetura histórica.",
       price: 2000,
       imagem: "https://sweetway.com.br/wp-content/uploads/2019/05/dez-motivos-conhecer-espanha.jpg",
@@ -86,6 +89,7 @@ function Countrys() {
     },
     {
       nome: "Itália",
+      index: 3,
       description: "A Itália é famosa por sua arte renascentista, culinária deliciosa e cidades históricas encantadoras.",
       price: 2500,
       imagem: "https://humanidades.com/wp-content/uploads/2018/09/italia-venecia-e1579918757767.jpg",
@@ -114,6 +118,7 @@ function Countrys() {
     },
     {
       nome: "China",
+      index: 4,
       description: "A China combina uma rica história cultural com paisagens deslumbrantes e cidades modernas.",
       price: 3000,
       imagem:
@@ -141,6 +146,7 @@ function Countrys() {
     },
     {
       nome: "México",
+      index: 5,
       description: "O México oferece praias paradisíacas, ruínas antigas e uma rica herança cultural.",
       price: 1500,
       imagem: "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/05/cidade-do-mexico-capa-820x430.jpg",
@@ -168,6 +174,7 @@ function Countrys() {
     },
     {
       nome: "Reino Unido",
+      index: 6,
       description: "O Reino Unido oferece história rica, paisagens impressionantes e cidades cosmopolitas.",
       price: 2500,
       imagem: "https://cdn.wizard.com.br/wp-content/uploads/2017/05/28161739/reino-unido-gra-bretanha.jpg",
@@ -195,6 +202,7 @@ function Countrys() {
     },
     {
       nome: "Alemanha",
+      index: 7,
       description: "A Alemanha é conhecida por sua eficiência, cervejas e belos castelos.",
       price: 2500,
       imagem:
@@ -223,6 +231,7 @@ function Countrys() {
     },
     {
       nome: "Tailândia",
+      index: 8,
       description: "A Tailândia oferece praias tropicais, templos budistas e uma cena gastronômica incrível.",
       price: 2000,
       imagem:
@@ -250,6 +259,7 @@ function Countrys() {
     },
     {
       nome: "Japão",
+      index: 9,
       description: "O Japão combina tradição e modernidade de maneira única, com templos antigos e cidades futurísticas.",
       price: 3000,
       imagem: "https://s2.static.brasilescola.uol.com.br/be/2021/10/vista-toquio.jpg",
@@ -277,6 +287,7 @@ function Countrys() {
     },
     {
       nome: "Austrália",
+      index: 10,
       description: "A Austrália oferece uma diversidade incrível, desde praias incríveis até o deserto vasto.",
       price: 3500,
       imagem: "https://www.remessaonline.com.br/blog/wp-content/uploads/2022/06/maiores-cidades-da-australia-1200x675.jpg",
@@ -305,6 +316,7 @@ function Countrys() {
     },
     {
       nome: "Grécia",
+      index: 11,
       description: "A Grécia é famosa por suas ilhas pitorescas, história antiga e culinária deliciosa.",
       price: 2500,
       imagem:

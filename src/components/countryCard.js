@@ -6,10 +6,12 @@ function CountryCard(props) {
           <p className="font-semibold">{props.data.nome}</p>
           <p>{props.data.description}</p>
           <p className="mt-auto">Custo médio de</p>
-          <p className="font-semibold text-[#FFD600] text-lg">R${props.data.price * 5.16}</p>
-          <div className="w-full p-2 rounded-md bg-brand text-center mt-2 hover:bg-[#161f32] transition-all active:scale-90 hover:border-brand cursor-pointer border-transparent border">
-            <p className="font-semibold">Ver mais</p>
-          </div>
+          <p className="font-semibold text-[#FFD600] text-lg">R${props.data.price * 5.16 || props.data.visitPrice * 5.16}</p>
+          <a href={`/countrys/${props.data.index}`} className={props.data.visitPrice ? "hidden" : false}>
+            <div className="w-full p-2 rounded-md bg-brand text-center mt-2 hover:bg-[#161f32] transition-all active:scale-90 hover:border-brand cursor-pointer border-transparent border">
+              <p className="font-semibold">Ver mais</p>
+            </div>
+          </a>
         </article>
         <img className="absolute top-0 rounded-xl w-full h-full z-0 opacity-30" src={props.data.imagem}></img>
       </div>
