@@ -1,7 +1,6 @@
 import "../../App.css";
 import logo from "../../images/logo.png";
 import githubLogo from "../../images/githubLogo.png";
-import Routes from "../../Routes";
 
 function Home() {
   return (
@@ -21,7 +20,11 @@ function Home() {
           </a>
         </div>
       </section>
-      <section className="flex max-w-[90rem] px-12 justify-between w-full items-center">
+      <section className="flex max-w-[90rem] px-12 justify-between w-full items-center sm:flex-row flex-col">
+        <div className="relative sm:hidden flex">
+          <span className="font-materialIcons text-[10rem] text-brand">flightsmode</span>
+          <div className="absolute blurred h-40 w-40 top-20 right-1"></div>
+        </div>
         <div className="flex flex-col w-full sm:w-[60%] gap-2 items-center sm:items-start">
           <p className="text-4xl sm:text-6xl tracking-tighter max-w-2xl text-center sm:text-left">
             Descubra <b className="text-brand">destinos</b> e <b className="text-brand">experiências inesquecíveis</b>
@@ -43,7 +46,7 @@ function Home() {
       <section className="flex w-full px-12 justify-center">
         <div className="max-w-[90rem]">
           <div className="flex flex-wrap">
-            <div className="sm:w-1/2 w-full p-2">
+            <div className="sm:w-1/3 w-full p-2">
               <div className="h-full rounded-xl bg-[#161f32]">
                 <article className="h-full p-6 flex flex-col">
                   <p className="font-semibold">🧭 Explore destinos</p>
@@ -54,7 +57,7 @@ function Home() {
                 </article>
               </div>
             </div>
-            <div className="sm:w-1/2 w-full p-2">
+            <div className="sm:w-1/3 w-full p-2">
               <div className="h-full rounded-xl bg-[#161f32]">
                 <article className="h-full p-6 flex flex-col">
                   <p className="font-semibold">⛅ Planeje sua aventura dos sonhos</p>
@@ -62,7 +65,7 @@ function Home() {
                 </article>
               </div>
             </div>
-            <div className="sm:w-1/2 w-full p-2">
+            <div className="sm:w-1/3 w-full p-2">
               <div className="h-full rounded-xl bg-[#161f32]">
                 <article className="h-full p-6 flex flex-col">
                   <p className="font-semibold">🌏 Explore o Mundo à Sua Maneira</p>
@@ -72,7 +75,7 @@ function Home() {
                 </article>
               </div>
             </div>
-            <div className="sm:w-1/2 w-full p-2">
+            <div className="sm:w-1/3 w-full p-2">
               <div className="h-full rounded-xl bg-[#161f32]">
                 <article className="h-full p-6 flex flex-col">
                   <p className="font-semibold">✈ Seu guia completo para destinos</p>
@@ -83,7 +86,7 @@ function Home() {
                 </article>
               </div>
             </div>
-            <div className="sm:w-1/2 w-full p-2">
+            <div className="sm:w-1/3 w-full p-2">
               <div className="h-full rounded-xl bg-[#161f32]">
                 <article className="h-full p-6 flex flex-col">
                   <p className="font-semibold">😲 Busca de destinos simplificada</p>
@@ -94,7 +97,7 @@ function Home() {
                 </article>
               </div>
             </div>
-            <div className="sm:w-1/2 w-full p-2">
+            <div className="sm:w-1/3 w-full p-2">
               <div className="h-full rounded-xl bg-[#161f32]">
                 <article className="h-full p-6 flex flex-col">
                   <p className="font-semibold">🎢 Sua viagem começa aqui</p>
@@ -106,9 +109,11 @@ function Home() {
         </div>
       </section>
       <section className="flex w-full px-12 max-w-[90rem] flex-col items-center py-12">
-        <div className="h-12 px-7 w-fit p-3 rounded-full bg-brand hover:bg-[#161f32] transition-all active:scale-90 border border-transparent hover:border-brand cursor-pointer">
-          <p className="font-semibold">Acessar agora</p>
-        </div>
+        <a href="/countrys">
+          <div className="h-12 px-7 w-fit p-3 rounded-full bg-brand hover:bg-[#161f32] transition-all active:scale-90 border border-transparent hover:border-brand cursor-pointer">
+            <p className="font-semibold">Acessar agora</p>
+          </div>
+        </a>
       </section>
       <section className="flex p-12 w-screen border-t-2 border-t-gray-800 flex-col items-center">
         <img src={logo}></img>
