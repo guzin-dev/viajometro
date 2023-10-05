@@ -14,9 +14,11 @@ function Home() {
               <img src={githubLogo}></img>
             </div>
           </a>
-          <div className="h-12 px-7 p-3 rounded-full border-brand border hover:bg-brand transition-all cursor-pointer active:scale-90">
-            <p className="font-semibold">Acessar agora</p>
-          </div>
+          <a href="/countrys">
+            <div className="h-12 px-7 p-3 rounded-full border-brand border hover:bg-brand transition-all cursor-pointer active:scale-90">
+              <p className="font-semibold">Acessar agora</p>
+            </div>
+          </a>
         </div>
       </section>
       <section className="flex max-w-[90rem] px-12 justify-between w-full items-center">
@@ -27,9 +29,11 @@ function Home() {
           <p className="font-semibold text-lg leading-6 tracking-tighter max-w-2xl text-center sm:text-left">
             Descubra o que cada destino tem de melhor para oferecer com nosso guia abrangente
           </p>
-          <div className="h-12 px-7 w-fit p-3 rounded-full bg-brand mt-2 hover:bg-[#161f32] transition-all active:scale-90 border border-transparent hover:border-brand cursor-pointer">
-            <p className="font-semibold">Acessar agora</p>
-          </div>
+          <a href="/countrys">
+            <div className="h-12 px-7 w-fit p-3 rounded-full bg-brand mt-2 hover:bg-[#161f32] transition-all active:scale-90 border border-transparent hover:border-brand cursor-pointer">
+              <p className="font-semibold">Acessar agora</p>
+            </div>
+          </a>
         </div>
         <div className="w-[40%] scale-x-[-1] items-center justify-center hidden sm:flex pointer-events-none">
           <span className="font-materialIcons text-[20rem] text-brand">flightsmode</span>

@@ -11,7 +11,7 @@ const Rotas = () => {
             <Routes>
                 <Route element={<Home />} path="/" />
                 <Route element={<Countrys />} path="/countrys"></Route>
-                <Route element={<Country />} path="/countrys/:countryId"></Route>
+                <Route element={<Country />} path="/countrys/:countryIndex"></Route>
             </Routes>
         </BrowserRouter>
     )

@@ -3,11 +3,11 @@ import { useParams } from "react-router-dom";
 
 export default function Country(){
     const params = useParams();
-    const {countryId} = params;
+    const {countryIndex} = params;
 
     return(
         <div>
-            <p>{countryId}</p>
+            <p>{countryIndex}</p>
         </div>
     )
 }
